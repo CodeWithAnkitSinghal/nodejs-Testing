@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "testwatch": "nodemon --exec 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithAnkitSinghal/nodejs-Testing.git"
+  },
+  "author": "Ankit Singhal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWithAnkitSinghal/nodejs-Testing/issues"
+  },
+  "homepage": "https://github.com/CodeWithAnkitSinghal/nodejs-Testing#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0"
+  }
+}
