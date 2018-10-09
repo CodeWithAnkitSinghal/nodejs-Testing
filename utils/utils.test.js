@@ -37,3 +37,17 @@ it('should verify first and last name are set', () => {
     });
 });
 
+it('should async add 2 numbers', (done) => {
+    utils.asyncAdd(2,3, (sum) => {
+        expect(sum).toBe(5).toBeA('number');
+        done();
+    });
+});
+
+it('should async square a numbers', (done) => {
+    utils.asyncSquare(3, (sqr) => {
+        expect(sqr).toBe(9).toBeA('number');
+        done();
+    });
+});
+
